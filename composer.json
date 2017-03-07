@@ -1,0 +1,11 @@
+{
+  "name": "room204/sortbrands",
+  "description": "Sort the Brands in the system",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Room204\\SortBrands\\": ""}
+  }
+}

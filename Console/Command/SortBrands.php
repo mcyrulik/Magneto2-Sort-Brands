@@ -115,13 +115,6 @@ class SortBrands extends Command
 
         $output->writeln('DONE');
 
-
-
-        var_dump($this->_timezoneInterface->date()->format('Y-m-d 00:00:00'));
-        var_dump($this->_timezoneInterface->date()->format('Y-m-d 23:59:59'));
-        var_dump($this->_dateTime->gmDate('Y-m-d H:i:s', time()));
-//        var_dump($this->_dateTime->);
-        var_dump(date('c'));
     }
 
 

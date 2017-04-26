@@ -1,7 +1,7 @@
 {
   "name": "room204/sortbrands",
   "description": "Sort the Brands in the system",
-  "type": "magento2-module",
+  "type": "library",
   "version": "0.0.1",
   "autoload": {
     "files": [ "registration.php" ],
